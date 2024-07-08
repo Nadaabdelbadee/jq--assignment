@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* header */
+#home{
+    background-image: url(../img/bg-slide-01.jpg);
+    height: 90vh;
+  background-size: cover;
+}
+.layer{
+    background-color: rgba(255, 0, 0 , 0.5);
+    height: 90vh;
+}
+.layer h1{
+    font-size: 4rem;
+}
+/* sideBar */
+.side-bar{
+    background-color: #111;
+}
+.side-bar a{
+    color: white;
+    text-decoration: none;
+}
+.side-bar a:hover{
+    color: rgba(214, 46, 51, 0.4)
+}
+.demo{
+    width:0;
+}
+
+/* accordion */
+.accordion-header{
+    background-color: rgba(214, 46, 51, 0.6);
+    padding: 10px;
+    
+}
+.accordion-body{
+    background-color: #ccc;
+}
+/* duration */
+
+#duration{
+    background-image: url(../img/join-us.jpg);
+}
+.layer2{
+    background-color: rgba(214, 46, 51, 0.5);    
+}
+
+/* join us */
+
+.social i{
+border: 1px solid gray;
+padding: .8rem;
+margin: .3rem;
+}
